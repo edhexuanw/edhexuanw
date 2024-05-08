@@ -8,4 +8,4 @@ class Complex:
         return Complex(self.real - other.real,self.imag - other.imag)
     def __mul__ (self,other):
         real = (self.real * other.real - self.imag * other.imag,)
-        
+print('hello ')
